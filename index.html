@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Raymond Peters | Web Developer & UI Designer</title>
+
+  <meta name="description"
+    content="Explore Raymond Peters' portfolio featuring web development, UI design, ICT projects, and creative work.">
+
+  <meta name="theme-color" content="#080b14">
+
+  <link rel="icon" href="Rayp.png">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+
+<body>
+
+  <!-- Background decoration -->
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <a href="#home" class="brand" aria-label="RayP home">
+      <img src="Rayp.png" alt="RayP logo">
+      <span>Ray<span class="accent">P.</span></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Open navigation menu" aria-expanded="false"
+      aria-controls="mainNav">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <nav class="nav" id="mainNav" aria-label="Main navigation">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#gallery" class="nav-link">Gallery</a>
+      <a href="#contact" class="nav-link nav-contact">Contact Me <i class="fas fa-arrow-up-right-from-square"></i></a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <div class="availability">
+          <span class="status-dot"></span>
+          Web Developer · ICT Student
+        </div>
+
+        <p class="eyebrow">WELCOME TO MY DIGITAL WORLD</p>
+
+        <h1>
+          Hi, I'm Raymond<br>
+          <span class="gradient-text">Peters.</span>
+        </h1>
+
+        <h2 class="hero-role">
+          I build <span id="typed">modern websites</span><span class="typing-cursor">|</span>
+        </h2>
+
+        <p class="hero-description">
+          I'm a passionate web developer creating modern, responsive
+          websites and digital systems that turn ideas into practical solutions.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            Explore My Work <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="Raymond_Peters_CV.pdf" class="btn btn-outline" target="_blank" rel="noopener">
+            <i class="fas fa-file-pdf"></i> View My CV
+          </a>
+        </div>
+
+        <div class="socials" aria-label="Social media links">
+          <a href="https://github.com/raymondpeters117" target="_blank" rel="noopener"
+            aria-label="GitHub"><i class="fab fa-github"></i></a>
+
+          <a href="https://www.tiktok.com/@raypeters117" target="_blank" rel="noopener"
+            aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+
+          <a href="https://wa.me/256751095302" target="_blank" rel="noopener"
+            aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+
+          <!-- Replace # with your actual Facebook profile URL -->
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-image-frame">
+          <div class="image-glow"></div>
+          <img src="FB_IMG_16397095624801554.jpg" alt="Portrait of Raymond Peters">
+          <div class="image-label">
+            <span class="label-icon"><i class="fas fa-code"></i></span>
+            <span><strong>Building the future</strong><small>One project at a time</small></span>
+          </div>
+        </div>
+
+        <div class="floating-badge badge-top">
+          <i class="fab fa-html5"></i> Web Development
+        </div>
+
+        <div class="floating-badge badge-bottom">
+          <i class="fas fa-palette"></i> Creative Design
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistics -->
+    <section class="stats section" aria-label="Portfolio statistics">
+      <div class="stats-grid">
+        <article class="stat-card">
+          <span class="stat-icon"><i class="fas fa-laptop-code"></i></span>
+          <div><h3>20+</h3><p>Projects</p></div>
+        </article>
+
+        <article class="stat-card">
+          <span class="stat-icon"><i class="fas fa-globe"></i></span>
+          <div><h3>5+</h3><p>Websites</p></div>
+        </article>
+
+        <article class="stat-card">
+          <span class="stat-icon"><i class="fas fa-graduation-cap"></i></span>
+          <div><h3>3+</h3><p>Years Learning</p></div>
+        </article>
+
+        <article class="stat-card">
+          <span class="stat-icon"><i class="fas fa-bolt"></i></span>
+          <div><h3>100%</h3><p>Dedication</p></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section section-block" id="about">
+      <div class="section-heading">
+        <span class="eyebrow">GET TO KNOW ME</span>
+        <h2>About <span class="gradient-text">Me</span></h2>
+        <p>A little about who I am and what I love doing.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-image">
+          <img src="FB_IMG_16397097699887355.jpg" alt="Raymond Peters">
+          <div class="about-image-caption">
+            <i class="fas fa-terminal"></i>
+            <span>Passion meets technology.</span>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <h3>Turning ideas into digital experiences.</h3>
+          <p>
+            Hello! I'm Raymond Peters, an ICT student and passionate web
+            developer interested in building useful, attractive, and
+            user-friendly digital experiences.
+          </p>
+          <p>
+            I work on websites, dashboards, and management systems designed
+            to solve real-world problems. I enjoy learning new technologies,
+            improving my design skills, and bringing creative ideas to life.
+          </p>
+
+          <div class="about-highlights">
+            <div><i class="fas fa-check-circle"></i> Responsive web design</div>
+            <div><i class="fas fa-check-circle"></i> Interactive applications</div>
+            <div><i class="fas fa-check-circle"></i> Creative problem-solving</div>
+            <div><i class="fas fa-check-circle"></i> Continuous learning</div>
+          </div>
+
+          <a href="#contact" class="btn btn-primary">
+            Let's Connect <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section section-block section-tinted" id="skills">
+      <div class="section-heading">
+        <span class="eyebrow">WHAT I BRING TO THE TABLE</span>
+        <h2>My Professional <span class="gradient-text">Skills</span></h2>
+        <p>Technologies and creative skills I use to bring projects to life.</p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-top"><i class="fab fa-html5 html-icon"></i><span>01</span></div>
+          <h3>HTML</h3>
+          <p>Building structured, accessible web pages.</p>
+          <div class="progress"><span style="width:95%"></span></div>
+          <div class="skill-meta"><span>Proficiency</span><span>95%</span></div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-top"><i class="fab fa-css3-alt css-icon"></i><span>02</span></div>
+          <h3>CSS</h3>
+          <p>Creating responsive layouts and modern interfaces.</p>
+          <div class="progress"><span style="width:90%"></span></div>
+          <div class="skill-meta"><span>Proficiency</span><span>90%</span></div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-top"><i class="fab fa-js js-icon"></i><span>03</span></div>
+          <h3>JavaScript</h3>
+          <p>Adding interactivity and useful functionality.</p>
+          <div class="progress"><span style="width:85%"></span></div>
+          <div class="skill-meta"><span>Proficiency</span><span>85%</span></div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-top"><i class="fas fa-pen-nib design-icon"></i><span>04</span></div>
+          <h3>UI Design</h3>
+          <p>Designing intuitive and visually engaging interfaces.</p>
+          <div class="progress"><span style="width:80%"></span></div>
+          <div class="skill-meta"><span>Proficiency</span><span>80%</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section-block" id="projects">
+      <div class="section-heading">
+        <span class="eyebrow">SELECTED WORK</span>
+        <h2>Featured <span class="gradient-text">Projects</span></h2>
+        <p>A selection of websites and systems I've worked on.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-preview preview-portfolio">
+            <i class="fas fa-laptop-code"></i>
+            <span>PERSONAL PORTFOLIO</span>
+            <div class="preview-lines"><span></span><span></span><span></span></div>
+          </div>
+          <div class="project-info">
+            <span class="project-type">WEB DEVELOPMENT</span>
+            <h3>Portfolio Website</h3>
+            <p>A personal website showcasing skills, projects, and professional experience.</p>
+            <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a href="https://raymond-peters.vercel.app/" target="_blank" rel="noopener" class="project-link">
+              View Live Project <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-preview preview-school">
+            <i class="fas fa-school"></i>
+            <span>SCHOOL MANAGEMENT</span>
+            <div class="preview-lines"><span></span><span></span><span></span></div>
+          </div>
+          <div class="project-info">
+            <span class="project-type">MANAGEMENT SYSTEM</span>
+            <h3>School System</h3>
+            <p>A digital platform designed to support school administration and daily operations.</p>
+            <div class="tag-list"><span>Dashboard</span><span>Web App</span><span>UI</span></div>
+            <a href="https://school-library-nine.vercel.app/" target="_blank" rel="noopener" class="project-link">
+              View Live Project <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-preview preview-farm">
+            <i class="fas fa-seedling"></i>
+            <span>FARM MANAGEMENT</span>
+            <div class="preview-lines"><span></span><span></span><span></span></div>
+          </div>
+          <div class="project-info">
+            <span class="project-type">TRACKING SYSTEM</span>
+            <h3>Farm Dashboard</h3>
+            <p>A dashboard for organizing farm finances, income, and expenses.</p>
+            <div class="tag-list"><span>Dashboard</span><span>Finance</span><span>Web App</span></div>
+            <a href="https://farm-system-ten.vercel.app/" target="_blank" rel="noopener" class="project-link">
+              View Live Project <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section section-block section-tinted" id="gallery">
+      <div class="section-heading">
+        <span class="eyebrow">MOMENTS & CREATIONS</span>
+        <h2>My <span class="gradient-text">Gallery</span></h2>
+        <p>A visual collection of personal photos, designs, achievements, and creative work.</p>
+      </div>
+
+      <div class="gallery-filters" role="group" aria-label="Filter gallery">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="photos">Photos</button>
+        <button class="filter-btn" data-filter="designs">Designs</button>
+        <button class="filter-btn" data-filter="projects">Creative Work</button>
+      </div>
+
+      <div class="gallery-grid">
+        <button class="gallery-item gallery-large" data-category="photos"
+          data-full="FB_IMG_16397095624801554.jpg" data-caption="A moment from my journey">
+          <img src="FB_IMG_16397095624801554.jpg" alt="Raymond Peters portrait" loading="lazy">
+          <span class="gallery-overlay"><span><small>PERSONAL PHOTOGRAPH</small><strong>A moment from my journey</strong></span><i class="fas fa-expand"></i></span>
+        </button>
+
+        <button class="gallery-item" data-category="photos"
+          data-full="FB_IMG_16397097699887355.jpg" data-caption="Personal collection">
+          <img src="FB_IMG_16397097699887355.jpg" alt="Personal photograph" loading="lazy">
+          <span class="gallery-overlay"><span><small>PHOTOGRAPHY</small><strong>Personal collection</strong></span><i class="fas fa-expand"></i></span>
+        </button>
+
+        <button class="gallery-item" data-category="photos"
+          data-full="me.jpg" data-caption="A little about me">
+          <img src="me.jpg" alt="Raymond Peters" loading="lazy">
+          <span class="gallery-overlay"><span><small>PERSONAL</small><strong>A little about me</strong></span><i class="fas fa-expand"></i></span>
+        </button>
+
+        <button class="gallery-item" data-category="designs"
+          data-full="logo.png" data-caption="RayP logo design">
+          <img src="logo.png" alt="RayP logo design" loading="lazy">
+          <span class="gallery-overlay"><span><small>GRAPHIC DESIGN</small><strong>RayP Logo</strong></span><i class="fas fa-expand"></i></span>
+        </button>
+
+        <button class="gallery-item" data-category="projects"
+          data-full="Badge.jpg" data-caption="Badge and achievement">
+          <img src="Badge.jpg" alt="Badge or achievement design" loading="lazy">
+          <span class="gallery-overlay"><span><small>CREATIVE WORK</small><strong>Badge & Achievement</strong></span><i class="fas fa-expand"></i></span>
+        </button>
+
+        <button class="gallery-item" data-category="designs"
+          data-full="Rayp.png" data-caption="RayP branding">
+          <img src="Rayp.png" alt="RayP brand graphic" loading="lazy">
+          <span class="gallery-overlay"><span><small>BRANDING</small><strong>RayP Identity</strong></span><i class="fas fa-expand"></i></span>
+        </button>
+
+        <button class="gallery-item gallery-wide" data-category="projects"
+          data-full="IMG-20260707-WA0017.jpg" data-caption="A project from my collection">
+          <img src="IMG-20260707-WA0017.jpg" alt="Creative project from my collection" loading="lazy">
+          <span class="gallery-overlay"><span><small>PROJECT SHOWCASE</small><strong>Creative Work</strong></span><i class="fas fa-expand"></i></span>
+        </button>
+      </div>
+
+      <p class="gallery-note"><i class="fas fa-info-circle"></i> Select any image to view it in full size.</p>
+    </section>
+
+    <!-- Gallery lightbox -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true"
+      aria-label="Gallery image viewer" aria-hidden="true">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close image viewer">
+        <i class="fas fa-times"></i>
+      </button>
+      <button class="lightbox-arrow lightbox-prev" id="lightboxPrev" aria-label="Previous image">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <figure>
+        <img src="" alt="" id="lightboxImage">
+        <figcaption id="lightboxCaption"></figcaption>
+      </figure>
+      <button class="lightbox-arrow lightbox-next" id="lightboxNext" aria-label="Next image">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <!-- Contact -->
+    <section class="section section-block" id="contact">
+      <div class="section-heading">
+        <span class="eyebrow">HAVE A PROJECT IN MIND?</span>
+        <h2>Let's Work <span class="gradient-text">Together</span></h2>
+        <p>Have an idea, collaboration, or opportunity? Send me a message.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Let's create something great.</h3>
+          <p>I'm interested in web development projects, collaborations, and opportunities to learn and grow.</p>
+
+          <a href="https://wa.me/256751095302" target="_blank" rel="noopener" class="contact-method">
+            <span><i class="fab fa-whatsapp"></i></span>
+            <div><small>MESSAGE ME</small><strong>WhatsApp</strong></div>
+            <i class="fas fa-arrow-up-right-from-square method-arrow"></i>
+          </a>
+
+          <a href="https://github.com/raymondpeters117" target="_blank" rel="noopener" class="contact-method">
+            <span><i class="fab fa-github"></i></span>
+            <div><small>EXPLORE MY CODE</small><strong>GitHub</strong></div>
+            <i class="fas fa-arrow-up-right-from-square method-arrow"></i>
+          </a>
+
+          <div class="contact-decoration"><i class="fas fa-paper-plane"></i></div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <label for="fromName">Full Name</label>
+            <input id="fromName" type="text" name="from_name"
+              placeholder="Enter your name" autocomplete="name" required>
+          </div>
+
+          <div class="form-row">
+            <label for="fromEmail">Email Address</label>
+            <input id="fromEmail" type="email" name="from_email"
+              placeholder="you@example.com" autocomplete="email" required>
+          </div>
+
+          <div class="form-row">
+            <label for="subject">Subject</label>
+            <input id="subject" type="text" name="subject"
+              placeholder="What would you like to discuss?" required>
+          </div>
+
+          <div class="form-row">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5"
+              placeholder="Tell me about your idea..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary submit-btn">
+            Send Message <i class="fas fa-paper-plane"></i>
+          </button>
+          <p id="status" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <a href="#home" class="brand footer-brand">
+      <img src="Rayp.png" alt="">
+      <span>Ray<span class="accent">P.</span></span>
+    </a>
+
+    <p>Designed and developed with <i class="fas fa-heart"></i> by Raymond Peters.</p>
+
+    <div class="footer-socials">
+      <a href="https://github.com/raymondpeters117" target="_blank" rel="noopener" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.tiktok.com/@raypeters117" target="_blank" rel="noopener" aria-label="TikTok">
+        <i class="fab fa-tiktok"></i>
+      </a>
+      <a href="https://wa.me/256751095302" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </div>
+
+    <small>© <span id="year"></span> Raymond Peters. All rights reserved.</small>
+  </footer>
+
+  <button id="topBtn" aria-label="Back to top" title="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+  <script src="email.js"></script>
+</body>
+</html>
